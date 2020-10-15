@@ -1,1 +1,2 @@
-<H1>İÇİNDEKİLER</H1>
+<h1 style="color:darkgreen">MOSSE TAKİP ALGORİTMASI </h1>
+
