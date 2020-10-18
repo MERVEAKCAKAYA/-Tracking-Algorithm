@@ -27,7 +27,24 @@ Aritmetik ve mantıksal işlem yapma yeteneğine sahip olan işlemciler, kısaca
 <b>4- NVIDIA JETSON NANO KARTI KURULUM</b>
 <br></br>
 <b>4.1 GEREKLİ MALZEMELER</b>
-<p>Nvidia Jetson Nano Kartının kurulumunu yapabilmek için şu malzemelere ihtiyaç vardır;       
-ssss
-</p>
+<p>Nvidia Jetson Nano Kartının kurulumunu yapabilmek için şu malzemelere ihtiyaç vardır;   </p>
+<li>Nvidia Jetson Nano Kart</li>
+<li>64 GB Micro SD Kart</li>
+<li>Nvidia Jetson Nano Kart Adaptörü</li>
+<li>Mönitör</li>
+<li>Ethernet Kablosu</li>
+<li>HDMI Kablosu</li>
+<li>Klavye, Mouse</li>
+<br></br>
+<b>4.2 GEREKLİ PROGRAMLAR</b>
+<p>Nvidia Jetson Nano Kartının kurulumunu yapabilmek için şu programlara ihtiyaç vardır;   </p>
+<li>SD Card Formatter</li>
+<li>balenaEtcher</li>
+<br></br>
+<b>4.3 KURULUM ADIMLARI</b>
+
+<p><b>Adım 1: </b>İlk olarak Jetson Nanoya işletim sistemi yüklemek gereklidir. SD karta işletim sistemini yüklemeden önce format atmalısınız. Bu sebeple bilgisayarınıza SD Card Formatter programını yükleyiniz. Bunun için aşağıdaki linki kullanarak bilgisayarınıza bu programı indiriniz.</p>
+<p>https://www.sdcard.org/downloads/formatter/eula_windows/</p>
+<p><b>Adım 2: </b>Bilgisayarınıza 64 GB boyutundaki SD kartınızı takınız ve SD Card Formatter programı yardımıyla karta format atınız. </p>
+<img src="https://developer.nvidia.com/sites/default/files/akamai/embedded/images/jetsonNano/gettingStarted/Jetson_Nano-Getting_Started-Windows-SD_Card_Formatter.png"></img>
 
