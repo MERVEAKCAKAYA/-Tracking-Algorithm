@@ -60,3 +60,8 @@ Aritmetik ve mantıksal işlem yapma yeteneğine sahip olan işlemciler, kısaca
 <br></br>
 <p><b>Adım 7: </b>Sd karta işletim sistemi yükleme işlemi başarıyla bittiğinde artık sd kart kullanıma hazırdır. Sd kartınızı bilgisayarınızdan çıkarabilirsiniz. Çıkarttığınız sd kartı Jetson Nano kartına takınız. Ardından HDMI, Ethernet, Klavye, Mouse ve güç adaptörü bağlantısını yapınız. </p>
 <img src="https://developer.nvidia.com/sites/default/files/akamai/embedded/images/jetsonNano/gettingStarted/Jetbot_animation_500x282_2.gif"></img>
+<br></br>
+<p><b>Adım 8: </b>Tüm adımları doğru bir şekilde yaptıysanız mönitöre akan yazıların gelmesi gerekmektedir. Biraz bekledikten sonra sistem ayarlarının yapılacağı ekranla karşılaşacaksınız. Buradan şifrenizi, isminizi, bölgenizi vb. şeyleri seçeceksiniz. Ardından aşağıdaki gibi ekran görüntüsüyle karşılaşacaksınız. Bu kurulum adımlarını başarılı bir şekilde tamamladığınızı göstermektedir.</p>
+<img src="https://miro.medium.com/max/2728/1*8dx4DOn86dsWs-4Iy74uxg.png"></img>
+<br></br>
+<p><b>Adım 9: </b>Masaüstünde sağ tık yapıp open terminal seçeneğine tıklayınız. Açılan terminale sudo apt-get update yazıp enter'a basınız. Sizden şifre isteyecektir. Sistem ayarları sırasında belirlediğiniz şifreyi girip enter'a basınız. Güncelleme işleminin bitmesini bekleyiniz. İşlem bittikten sonra terminali kapatabilirsiniz. Artık Jetson Nano Geliştirme Kartını kullanabilirisiniz.</p>
