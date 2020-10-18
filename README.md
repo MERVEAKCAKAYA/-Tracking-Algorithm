@@ -44,14 +44,14 @@ Aritmetik ve mantıksal işlem yapma yeteneğine sahip olan işlemciler, kısaca
 <b>4.3 KURULUM ADIMLARI</b>
 <br></br>
 <p><b>Adım 1: </b>İlk olarak Jetson Nanoya işletim sistemi yüklemek gereklidir. SD karta işletim sistemini yüklemeden önce format atmalısınız. Bu sebeple bilgisayarınıza SD Card Formatter programını yükleyiniz. Bunun için aşağıdaki linki kullanarak bilgisayarınıza bu programı indiriniz.</p>
-<p>https://www.sdcard.org/downloads/formatter/eula_windows/</p>
+<p><li>https://www.sdcard.org/downloads/formatter/eula_windows/</p>
 <p><b>Adım 2: </b>Bilgisayarınıza 64 GB boyutundaki SD kartınızı takınız ve SD Card Formatter programını çalıştırınız. Programı çalıştırınca ekrana aşağıdaki resimde görülen sekme gelecektir. Burada select card bölümünden sd kartınızı seçiniz ve Format butonuna basınız. Biraz bekledikten sonra sd kartınıza format atıldığına dair bildirim gelecektir. Kartı bilgisayarınızdan çıkarmadan diğer adımlara geçiniz. </p>
 <img src="https://developer.nvidia.com/sites/default/files/akamai/embedded/images/jetsonNano/gettingStarted/Jetson_Nano-Getting_Started-Windows-SD_Card_Formatter.png"></img>
 <br></br>
 <p><b>Adım 3: </b>Sd karta işletim sistemini yüklemek için bilgisayarınıza balenaEtcher programını yükleyiniz. Bunun için aşağıdaki linki kullanarak bilgisayarınıza bu programı indiriniz. </p>
-<p>https://www.balena.io/etcher/</p>
+<p><li>https://www.balena.io/etcher/</p>
 <p><b>Adım 4: </b>Bu adımda sd karta yüklenecek işletim sistemi indirilecektir. Bunun için aşağıdaki linke tıklayarak indirme işlemini başlatınız. Dosya boyutu büyük olduğundan bu işlem uzun sürebilir. İndirme işlemi sonucunda .zip dosyası inecektir. Kesinlikle bu dosyayı zipten çıkarmayınız. Sd karta .zip haliyle yüklenmesi gerekmektedir. </p>
-<p>https://developer.nvidia.com/jetson-nano-sd-card-image</p>
+<p><li>https://developer.nvidia.com/jetson-nano-sd-card-image</p>
 <p><b>Adım 5: </b>Bilgisayarınızda 64 GB boyutundaki SD kartınızın takılı olduğunu kontrol ediniz ve ardından balenaEtcher programını çalıştırınız. Programı çalıştırınca ekrana aşağıdaki resimde görülen sekme gelecektir. Burada select image bölümüne tıklayınız ve daha önceden bilgisayarınıza indirmiş olduğunuz .zip halinde olan jetson nano card image'i seçiniz. Select drive bölümünde bilgisayarınıza takılı olan 64 GB boyutundaki sd kartı seçiniz. Artık Flash butonuna basmaya hazırsınız. Flash butonuna basınız ve işletim sistemi sd karta yazılmaya başlasın.  </p>
 <img src="https://developer.nvidia.com/sites/default/files/akamai/embedded/images/jetsonNano/gettingStarted/Jetson_Nano-Getting_Started-Windows-Etcher.png"></img>
 <br></br>
