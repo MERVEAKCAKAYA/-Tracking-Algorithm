@@ -1,4 +1,21 @@
-` def pre_process(img):`
+` def pre_process(img):
+	#Görüntüden yükseklik ve genişlik değerleri alınır.
+	height, width = img.shape
+ 
+	#Logaritma işlemi yapılır.
+	img = np.log(img + 1)
+
+	#Görüntü standardize edilir.
+	img = (img - np.mean(img)) / (np.std(img) + 1e-5)
+
+	# Hanning pencere fonksiyonu kullanılır
+	window = window_func_2d(height, width)
+    
+	#Bu çerçeve görüntü üzerine uygulanır.
+	img = img * window
+    
+	return img
+`
 
 <h1><b>NVIDIA JETSON NANO İLE NESNE TAKİBİ</b></h1>
 <b>1- NVIDIA JETSON NANO KARTI </b>
