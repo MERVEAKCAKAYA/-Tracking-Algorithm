@@ -1,5 +1,5 @@
-` def pre_process(img):
-
+` 
+	def pre_process(img):
 	#Görüntüden yükseklik ve genişlik değerleri alınır.
 	height, width = img.shape
  
