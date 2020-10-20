@@ -1,4 +1,4 @@
-![title](k/1.png)
+![title](C:/Users/merve/Desktop/MARKDOWN/k/1.png)
 <h1><b>NVIDIA JETSON NANO İLE NESNE TAKİBİ</b></h1>
 <b>1- NVIDIA JETSON NANO KARTI </b>
 <br></br>
