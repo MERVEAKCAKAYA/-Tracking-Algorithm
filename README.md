@@ -132,6 +132,7 @@ def window_func_2d(height, width):
 <b>5.2 YAPAY HEDEF</b>
 <p>Yapay hedef, izlenecek nesnenin konumunda Gaussian tepe noktasına sahip ve yapay olarak oluşturulmuş bir görüntüdür. Yapay bir hedef giriş görüntüsünü, filtre oluşturmak için ilgili korelasyon çıkışıyla eşlemek için kullanılır. Aşağıdaki denklem hedef görüntüyü yapay hedef haline getirmek için kullanılır.
 </p>
+
 <p>İlk görüntüde bir hedef belirleniyor ve pencere içine alınıyor, ikinci görüntü de ise hedefin merkezi Gaussian tepe noktası olarak kullanılıyor ve bir yapay hedef oluşturuluyor. Bu işlemin python kodu aşağıda verilmiştir. </p>
 
 ```
@@ -317,3 +318,4 @@ def update(self,frame):
     	return current_frame
 
 ```
+
