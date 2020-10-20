@@ -1,9 +1,4 @@
-
-- text in red
-+ text in green
-! text in orange
-# text in gray
-@@ text in purple (and bold)@@
+` def pre_process(img):`
 
 <h1><b>NVIDIA JETSON NANO İLE NESNE TAKİBİ</b></h1>
 <b>1- NVIDIA JETSON NANO KARTI </b>
