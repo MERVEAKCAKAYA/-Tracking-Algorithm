@@ -319,3 +319,11 @@ def update(self,frame):
 
 ```
 
+<br></br>
+<b>6. NVIDIA JETSON NANO KARTINDA MOSSE ALGORİTMASI ÇALIŞTIRMAK</b>
+<p>Yukarıda Nvidia Jetson Nano kurulumu ie Mosse Takip Algoritması anlatılmıştır. Bu bölümde Mosse Algoritmasının Nvidia Jetson Nano kartında nasıl çalıştırılacağı anlatılacaktır.</p>
+<p><b>Adım 1:</b> Mosse Algoritmasının Jetson Nano kartında çalışması için Opencv'nin install edilmesi gerekmektedir. Bunun için Jetson Nano masaüstünde sağ tık yapıp open terminal seçeneğine tıklayınız ve terminali açınız. Terminale <b>sudo apt-get install python3-opencv</b> yazınız ve enter tuşuna basınız. Opencv paketinin indirilmesi biraz zaman alabilir. Paket kurulumu tammalandıktan sonra doğruluğunu kontrol etmek için terminale <b>python3</b> yazıp enter tuşuna basın. Ardından <b>import cv2</b> yazıp enter tuşuna basın. Eğer herhangi bir hatayla karşılaşmazsanız bu adımı doğru yaptınız demektir. Diğer adıma geçebilirsiniz.</p>
+<p><b>Adım 2:</b> home dizinine tracker adında bir dosya oluşturunuz ve içerisine mosse.py, utils.py, demo.py kodlarını koyunuz.</p> 
+<p><b>Adım 3:</b> Kameranızın Jetson Nano'ya takılı olduğundan emin olunuz.</p>
+<p><b>Adım 4:</b> Terminali açınız. <b>cd tracker</b> yazıp enter'a basınız. Böylece daha önceden oluşturup içerisine kodları atadığınız dosya dizinine gireceksiniz. Ardından <b>python demo.py</b> yazıp enter'a basınız. Kodunuz çalışmaya başlayacaktır.</p>
+<p><b>Adım 5: </b>Kod çalışınca ekrana kamera sekmesi açılacaktır. Kameradan takip edilecek nesneyi seçip space tuşuna basınız. Ve nesneyi hareket ettirip algoritmayı test ediniz.</p> 
